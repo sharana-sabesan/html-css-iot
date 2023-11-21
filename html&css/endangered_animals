@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Endangered Species</title>
+		<style>
+		    body {
+		        background-color:#FFD1AA;
+		        font-size:18px;
+		    }
+		    h1 {
+		        color: #003333;
+		    }
+		    h2 {
+		        color: #162955;  
+		    }
+		    .endangered {
+		        color: red;
+		    }
+		    .threatened {
+		        color: OrangeRed;
+		    }
+		    .scientific-name {
+		        font-style: italic;
+		    }
+		    img {
+		        text-align: center;
+		    }
+		    #toque {
+		        border-style: solid;
+		        height: 250px;
+		        
+		    }
+		    #gray-bat {
+		        border-style: dotted;
+		        height: 250px;
+		    }
+		    #deer {
+		        border-style: dashed;
+		        width: 250px;
+		        height: 200px;
+		    }
+		    #dog {
+		        border-style: double;
+		        height: 250px;
+		    }
+		    .citation {
+		        font-size: 13px;
+		    }
+		</style>
+	</head>
+
+	<body>
+		<h1>Endangered Animals</h1>
+		
+		<h2>Gray Bat</h2>
+		<ul>
+		    <li class="scientific-name">Scientific Name: Myotis grisescens</li>
+		    <li>Lives in: Central and southeastern U.S.</li>
+		    <li class="endangered">Endangered</li>
+		    <br>
+		    <img id="gray-bat" src="https://upload.wikimedia.org/wikipedia/commons/6/65/Myotis_grisescens_photo.jpg">
+		</ul>
+		
+		<h2>Persian Fallow Deer</h2>
+		<ul>
+		    <li class="scientific-name">Scientific Name: Dama mesopotamica (dama m.)</li>
+		    <li>Lives in: Iraq and Iran</li>
+		    <li class="endangered">Endangered</li>
+		    <br>
+		    <img id="deer" src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Persian_Fallow_Deer_1.jpg">
+		</ul>
+		
+		<h2>Toque Macaque</h2>
+		<ul>
+		    <li class="scientific-name">Scientific Name: Macaca sinica</li>
+		    <li>Lives in: Sri Lanka</li>
+		    <li class="threatened">Threatened</li>
+		    <br>
+		    <img id="toque"src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Macaca_sinica_-_01.jpg/399px-Macaca_sinica_-_01.jpg">
+		</ul>
+		
+		<h2>Utah Prairie Dog</h2>
+		<ul>
+		    <li class="scientific-name">Scientific Name: Cynomys parvidens</li>
+		    <li>Lives in: U.S. (UT)</li>
+		    <li class="threatened">Threatened</li>
+		    <br>
+		    <img id="dog" src="https://upload.wikimedia.org/wikipedia/commons/8/88/Utah-Pr%C3%A4riehund.jpg">
+		</ul>
+		
+		<h4>Picture Attributes</h4>
+		<h5>Toque Macaque</h5>
+	    <p class="citation">
+	        By Carlos Delagado(Own work) 
+	        [<a href="">CC BY-SA 4.0</a>]
+	        <a href="https://en.wikipedia.org/wiki/File:Macaca_sinica_-_01.jpg">via Wikimedia Commons</a>
+	        <br> 
+	        Retrieved from:
+	        <br>
+	        https://en.wikipedia.org/wiki/File:Macaca_sinica_-_01.jpg
+	    </p>
+	    
+	    <h5>Gray Bat</h5>
+	    <p class="citation">
+	        By Enwebb(Own work) 
+	        [<a href="">CC BY-SA 4.0</a>]
+	        <a href="https://en.wikipedia.org/wiki/File:Myotis_grisescens_photo.jpg">via Wikimedia Commons</a>
+	        <br> 
+	        Retrieved from:
+	        <br>
+	        https://en.wikipedia.org/wiki/File:Myotis_grisescens_photo.jpg
+	    </p>
+	    
+	    <h5>Persian Fallow Deer</h5>
+	    <p class="citation">
+	        By Eyal Bartov 
+	        [<a href="">CC BY-SA 3.0</a>]
+	        <a href="https://en.wikipedia.org/wiki/File:Persian_Fallow_Deer_1.jpg">via Wikimedia Commons</a>
+	        <br> 
+	        Retrieved from:
+	        <br>
+	        http://www.treknature.com/gallery/photo128403.htm
+	    </p>
+	    
+	     <h5>Utah Prairie Dog</h5>
+	    <p class="citation">
+	        By James Phelps 
+	        [<a href="">CC BY 2.0</a>]
+	        <a href="https://en.wikipedia.org/wiki/File:Utah-Pr%C3%A4riehund.jpg">via Wikimedia Commons</a>
+	        <br> 
+	        Retrieved from:
+	        <br>
+	        https://en.wikipedia.org/wiki/File:Utah-Pr%C3%A4riehund.jpg
+	    </p>
+	</body>
+</html>
